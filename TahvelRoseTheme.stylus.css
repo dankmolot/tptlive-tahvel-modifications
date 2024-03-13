@@ -1,0 +1,130 @@
+:root {
+    --color-background-white: rgba(255, 255, 255, 0.8);
+    --base-color-dark-grey-1: rgb(12, 12, 12);
+    --base-color-dark-grey-2: rgb(33, 33, 33);
+    --base-color-dark-grey-3: rgb(66, 66, 66);
+    --base-color-dark-blue: #a61e4d;
+    --base-color-blue: #d6336c;
+    --base-color-light-blue: #e64980;
+    --sidebar-gap-color: rgba(0, 0,0, 0.1);
+    
+    --toolbar-height: 4rem;
+    --footer-height: 2rem;
+}
+
+.fc .fc-button-primary {
+    --fc-button-bg-color: var(--base-color-blue);
+    --fc-button-active-bg-color: var(--base-color-light-blue);
+}
+
+.fc .fc-button:disabled {
+    --fc-button-bg-color: var(--base-color-dark-blue);
+}
+
+.fc .fc-toolbar-title {
+    color: var(--base-color-blue);
+}
+
+
+#main-wrapper {
+    background-image: url('https://images.wallpaperscraft.com/image/single/chrysanthemum_flower_petals_1186416_2560x1024.jpg');
+}
+
+md-content, md-table-container, md-menu-content {
+    border-radius: 8px;
+}
+
+md-content {
+    backdrop-filter: blur(4px);
+    background: var(--color-background-white);
+}
+
+#main-toolbar, md-menu-content {
+    backdrop-filter: blur(4px);
+}
+
+#home-page-container {
+    background: none;
+}
+
+#main-menu-button md-icon, #messages-button md-icon {
+    width: 2rem;
+    height: 2rem;
+    font-size: 2rem;
+}
+
+#lang-buttons {
+    color: var(--base-color-dark-grey-1) !important;
+}
+table.md-table thead.md-head > tr.md-row,
+.md-button.md-default-theme.md-primary.md-fab, 
+.md-button.md-primary.md-fab, 
+.md-button.md-default-theme.md-primary.md-raised, 
+.md-button.md-primary.md-raised,
+table.fc-col-header,
+.fixed-md-table-container th {
+    background-color: var(--base-color-blue);
+}
+
+.md-button.md-default-theme.md-primary.md-fab:not([disabled]).md-focused, 
+.md-button.md-primary.md-fab:not([disabled]).md-focused, 
+.md-button.md-default-theme.md-primary.md-fab:not([disabled]):hover, 
+.md-button.md-primary.md-fab:not([disabled]):hover, 
+.md-button.md-default-theme.md-primary.md-raised:not([disabled]).md-focused, 
+.md-button.md-primary.md-raised:not([disabled]).md-focused, 
+.md-button.md-default-theme.md-primary.md-raised:not([disabled]):hover, 
+.md-button.md-primary.md-raised:not([disabled]):hover {
+    background-color: var(--base-color-light-blue);
+}
+
+.md-button.md-default-theme.md-primary, 
+.md-button.md-primary, 
+.md-nav-bar li a.md-active,
+.docs-toolbar-tools > .md-toolbar-tools h2, 
+h2,
+.good {
+    color: var(--base-color-blue);
+}
+
+.hois-collapse {
+    border-color: var(--base-color-blue);
+}
+
+#toolbar-logo img {
+    filter: hue-rotate(120deg);
+}
+
+#site-sidenav-scroll-wrapper {
+    position: static; 
+}
+
+#home-data-sections-container {
+    grid-template-columns: 0.70fr 1fr;   
+}
+
+.home-data-section-tab-title, .home-data-section-title {
+    font-size: 1.15rem;
+}
+.home-data-section-footer {
+    padding: 0rem 1rem;
+}
+
+.home-data-section-footer .md-button {
+    font-size: 0.8rem;
+}
+
+.home-data-section-content {
+    font-size: 0.95rem
+}
+
+.home-tasks-section-description {
+    font-size: 0.9rem
+}
+
+.fc-timegrid-event-harness {
+    border: none;
+}
+
+.fc-timegrid-event-harness-inset .fc-timegrid-event {
+    border: 2px solid;
+}
